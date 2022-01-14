@@ -1,0 +1,127 @@
+.parent{
+    display: flex;
+    margin: 10%;
+    justify-content: space-around;
+    margin-left:20%;
+    margin-top:-5%;
+}
+.child{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: red;
+    padding-bottom: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border:1px solid red;
+    margin-left: 20px;
+    box-shadow: 5px 10px 15px #888888;
+}
+.paragraph{
+    font-size:50px;
+    font-family:Arial, sans-serif;
+    margin-left:22.5rem;
+    margin-top: 150px;
+}
+.plus{
+    margin-left: 490px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 150.5px;
+}
+img{
+    display: inline-block;
+}
+p{
+    display: inline-block;
+}
+.hr1{
+    position: absolute;
+    top: 370px;
+    left: 450px;
+    width: 180px;
+    width: 160px;
+}
+.hr2{
+    position: absolute;
+    top: 370px;
+    left: 800px;
+    width: 180px;
+    width: 160px;
+}
+.hr3{
+    position: absolute;
+    top: 370px;
+    left: 1140px;
+    width: 180px;
+}
+@media all and (max-width:1000px)
+{
+    .body{
+        height:1rem;
+        width:1rem;
+        margin-right:0px;
+        padding:10%;
+        border:1px solid red;
+    }
+    .parent{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 100%;
+        margin-top:-17rem;
+        padding-top:254px;
+        margin-left:20px;
+    }
+    .delete{
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+    .pending{
+        display: none;
+    }
+    .child{
+        margin-bottom: 10px;
+        padding: 10px 50% 10px 10px;
+        margin-right: 0px;
+        padding-right:300px;
+        padding-top:10px;
+        padding-bottom:10px;
+        height:8.8vh;
+        width:76.8vw;
+    }
+    h3{
+        display:inline;
+        padding-right:100px;
+        padding-left:-24px;
+        padding-top:20px;
+        padding-bottom:20px;
+        font-size:30px;
+        color:black;
+    }
+    .hr1{
+        display:none;
+    }
+    .hr2{
+        display:none;
+    }
+    .hr3{
+        display:none;
+    }
+    .paragraph{
+        margin-top:50px;
+        margin-left:2rem;
+    }
+    .plus{
+        margin-top:-93px;
+        margin-left:20rem;
+    }
+    .list{
+        display:none;
+    }
+}
